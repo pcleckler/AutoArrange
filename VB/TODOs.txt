@@ -1,0 +1,16 @@
+﻿Features
+--------------------------------------------------------------
+- When the geometry of the desktop changes, try to position windows in the space they were before.
+  This is a one-time action per each geometry change event.  Restore and re-Maximize if needed.
+- Refresh automatically when displaying the configuration window
+
+Bugs
+--------------------------------------------------------------
+
+Not Doing
+--------------------------------------------------------------
+- Automatically Elevate to Admin rights on launch
+
+Completed
+--------------------------------------------------------------
+- Remove program launch functionality?
