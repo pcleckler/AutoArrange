@@ -45,8 +45,6 @@ Partial Class frmMain
         Me.tsmiCopy = New System.Windows.Forms.ToolStripMenuItem()
         Me.tsmiPaste = New System.Windows.Forms.ToolStripMenuItem()
         Me.tsmiRemove = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ToolStripMenuItem4 = New System.Windows.Forms.ToolStripSeparator()
-        Me.tsmiProperties = New System.Windows.Forms.ToolStripMenuItem()
         Me.imageList = New System.Windows.Forms.ImageList(Me.components)
         Me.split = New System.Windows.Forms.SplitContainer()
         Me.propertyGrid = New System.Windows.Forms.PropertyGrid()
@@ -202,9 +200,9 @@ Partial Class frmMain
         '
         'cmsLayouts
         '
-        Me.cmsLayouts.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.tsmiAddWindows, Me.tsmiRename, Me.ToolStripMenuItem3, Me.tsmiCopy, Me.tsmiPaste, Me.tsmiRemove, Me.ToolStripMenuItem4, Me.tsmiProperties})
+        Me.cmsLayouts.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.tsmiAddWindows, Me.tsmiRename, Me.ToolStripMenuItem3, Me.tsmiCopy, Me.tsmiPaste, Me.tsmiRemove})
         Me.cmsLayouts.Name = "cmsLayouts"
-        Me.cmsLayouts.Size = New System.Drawing.Size(158, 148)
+        Me.cmsLayouts.Size = New System.Drawing.Size(158, 120)
         '
         'tsmiAddWindows
         '
@@ -243,18 +241,6 @@ Partial Class frmMain
         Me.tsmiRemove.Name = "tsmiRemove"
         Me.tsmiRemove.Size = New System.Drawing.Size(157, 22)
         Me.tsmiRemove.Text = "Remove"
-        '
-        'ToolStripMenuItem4
-        '
-        Me.ToolStripMenuItem4.Name = "ToolStripMenuItem4"
-        Me.ToolStripMenuItem4.Size = New System.Drawing.Size(154, 6)
-        '
-        'tsmiProperties
-        '
-        Me.tsmiProperties.Image = Global.AutoArrange.My.Resources.Resources.properties
-        Me.tsmiProperties.Name = "tsmiProperties"
-        Me.tsmiProperties.Size = New System.Drawing.Size(157, 22)
-        Me.tsmiProperties.Text = "Properties"
         '
         'imageList
         '
@@ -415,7 +401,5 @@ Partial Class frmMain
     Friend WithEvents ToolStripMenuItem3 As ToolStripSeparator
     Friend WithEvents tsmiCopy As ToolStripMenuItem
     Friend WithEvents tsmiPaste As ToolStripMenuItem
-    Friend WithEvents ToolStripMenuItem4 As ToolStripSeparator
-    Friend WithEvents tsmiProperties As ToolStripMenuItem
     Friend WithEvents tsmiRemove As ToolStripMenuItem
 End Class
