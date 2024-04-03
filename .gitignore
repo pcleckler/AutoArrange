@@ -5,3 +5,5 @@
 /VB/.vs
 /VB/bin/Debug
 /VB/obj/Debug
+/VB/obj/Release
+/VB/bin/Release
